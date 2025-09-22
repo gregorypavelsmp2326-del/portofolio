@@ -95,3 +95,6 @@ p {
 h3 {
   text-align: center;
 }
+html {
+  scroll-behavior: smooth;
+}
