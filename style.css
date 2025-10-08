@@ -5,6 +5,14 @@ nav a {
   text-decoration: none;
   margin: 0 10px;
 }
+#menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  top: 0;
+}
+
 nav {
   background-color: gray;
   padding: 0.2rem 0;
@@ -22,6 +30,7 @@ body {
 main {
   text-align: center;
   width: 100%;
+  margin-top: 8rem;
 }
 header {
   background-color: rgb(0, 0, 0);
@@ -44,6 +53,7 @@ section {
   text-align: center;
   margin: 2rem auto;
   border-radius: 6px;
+  scroll-margin-top: 8rem;
 }
 * {
   margin: 0;
